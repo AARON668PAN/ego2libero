@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# raw phone videos and generated data stay local, except one sample clip and the
+# camera files it needs (scripts/phone/run_sample.sh) and the hand trajectories
+videos/
+data/raw/*
+!data/raw/sdr/
+data/raw/sdr/*
+!data/raw/sdr/IMG_3562.mp4
+data/processed/*
+!data/processed/traj/
+!data/processed/camera/
+data/processed/camera/*
+!data/processed/camera/IMG_3562.json
+!data/processed/camera/intrinsics.json
+!data/processed/camera/box_corners_f0.json
+data/lerobot/
+outputs/
+logs/
+
+# downloaded model files and tools
+tools/
+models/
+
+# personal working notes
+notes/

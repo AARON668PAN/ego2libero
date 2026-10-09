@@ -1,0 +1,15 @@
+{
+ "fx": 1612.4,
+ "fy": 1612.4,
+ "width": 1920,
+ "height": 1080,
+ "principal_point": "per frame: optical_center_normalized in <clip>.json times (width, height)",
+ "focal_jackknife_std_px": 21.9,
+ "corner_rmse_px": 0.71,
+ "box_aspect": 1.858,
+ "box_mm": [
+  164.0,
+  88.3
+ ],
+ "clips_used": 9
+}
